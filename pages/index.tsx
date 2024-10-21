@@ -80,7 +80,7 @@ const { referer } = context.req.headers;
 if (referer?.includes("facebook.com")) {
 return {
 redirect: {
-destination: "urldestination.com",
+destination: "https://pedalthebio.com/",
 permanent: false,
 },
 };
